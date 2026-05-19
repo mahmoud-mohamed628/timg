@@ -51,12 +51,12 @@ htmlcov/
 
 # Results and outputs (optional - comment if you want to track)
 results/
-*.png
-*.jpg
-*.jpeg
-*.mp4
-*.avi
-*.mov
+
+# Allow generated reports and videos to be tracked
+!rapports_graphes/
+!rapports_graphes/**
+!vedios/
+!vedios/**
 
 # OS
 .DS_Store
